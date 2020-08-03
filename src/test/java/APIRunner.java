@@ -22,7 +22,7 @@ public class APIRunner {
 
     @BeforeClass
     public static void setup() {
-        RestAssured.baseURI = URI.create(Constants.baseURL).toString() ;
+        RestAssured.baseURI = URI.create(Constants.tflBaseURL).toString() ;
     }
 
 }
